@@ -33,3 +33,16 @@ def welcome():
 def log():
     return "<h1> Welcome to the login page </h1> <h2> Please enter your user login details </h2>"
 ```
+
+`if __name__ == "__main__":
+    app.run(debug=True)`
+- Let's add pur html file to redirect from python flask to .html file
+- We need to create a folder called templates
+```
+project folder
+   templates folder
+         welcome.html
+   app.py
+```
+### What if the login page is unavailable?
+- We would like to redirect the users if they visit login page
